@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oficiální web společnosti Welau, poskytující inovativní řešení pro vaše potřeby.">
+    <meta name="keywords" content="Welau, technologie, inovace, řešení, služby, komíny, průmysl">
+    <meta name="author" content="Matějíček Dominik">
+    <link rel="stylesheet" href="style/style.css">
+    <title>WeLau | Média</title>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="index.html" class="logo"><img src="images/welau.png" alt="Welau Logo"></a>
+            <nav class="main-nav">
+                <a href="index.html" class="navigace">Domů</a>
+                <a href="Onas.html" class="navigace">O nás</a>
+                <a href="Sluzby.html" class="navigace">Systémy</a>
+                <a href="Fotogalerie.html" class="navigace">Média</a>
+            </nav>
+            <a href="Kontakt.html" class="contact-button">Kontakty</a>
+        </div>
+    </header>
+    <main>
+        <section class="media-hero">
+            <div class="section-heading left-aligned">
+                <p class="section-label">Média</p>
+            </div>
+        </section>
+
+        <section class="media-mosaic" aria-label="Fotografie společnosti WeLau">
+            <article class="media-tile" tabindex="0" role="button" aria-label="Zvětšit fotografii: Moderní výrobní prostory" data-image="images/budova.jpg" data-title="Moderní výrobní prostory">
+                <img src="images/budova.jpg" alt="Výrobní areál WeLau">
+            </article>
+
+            <article class="media-tile" tabindex="0" role="button" aria-label="Zvětšit fotografii: Rozvoj výrobních hal" data-image="images/2hala.png" data-title="Rozvoj výrobních hal">
+                <img src="images/2hala.png" alt="Rozšíření výrobních hal">
+            </article>
+
+            <article class="media-tile" tabindex="0" role="button" aria-label="Zvětšit fotografii: Sklad a export" data-image="images/sklad.png" data-title="Sklad a export">
+                <img src="images/sklad.png" alt="Sklad a logistické prostory">
+            </article>
+
+            <article class="media-tile" tabindex="0" role="button" aria-label="Zvětšit fotografii: Období růstu a rozvoje" data-image="images/budova1.png" data-title="Období růstu a rozvoje">
+                <img src="images/budova1.png" alt="Historie výstavby areálu">
+            </article>
+
+            <article class="media-tile" tabindex="0" role="button" aria-label="Zvětšit fotografii: Začátky společnosti" data-image="images/stara.png" data-title="Historická výroba a začátky společnosti">
+                <img src="images/stara.png" alt="Historická fotografie společnosti WeLau">
+            </article>
+
+            <article class="media-tile" tabindex="0" role="button" aria-label="Zvětšit fotografii: Výstavba areálu" data-image="images/stavba.JPG" data-title="Výstavba areálu">
+                <img src="images/stavba.JPG" alt="Výstavba areálu WeLau">
+            </article>
+
+            <article class="media-tile media-tile--video" tabindex="0" role="button" aria-label="Přehrát video výrobního areálu WeLau" data-video="images/welauvid.MP4" data-title="Video výrobního areálu WeLau">
+                <img src="images/budova.jpg" alt="Náhled videa výrobního areálu WeLau">
+                <span class="media-video-badge">VIDEO</span>
+            </article>
+
+        </section>
+
+        <div class="lightbox" id="lightbox" aria-hidden="true">
+            <button class="lightbox-close" aria-label="Zavřít">×</button>
+            <img id="lightbox-image" src="" alt="Rozšířený obrázek">
+            <video id="lightbox-video" controls playsinline preload="none" hidden aria-label="Video výrobního areálu WeLau"></video>
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a href="index.html" class="footer-logo"><img src="images/bilewelau.png" alt="Welau logo"></a>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <a href="index.html">Domů</a>
+                    <a href="Onas.html">O nás</a>
+                </div>
+                <div class="footer-column">
+                    <a href="Sluzby.html">Systémy</a>
+                    <a href="Fotogalerie.html">Média</a>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <a href="Kontakt.html" class="footer-contact-button">Kontaktujte nás</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>©2026 WeLau. Všechna práva vyhrazena.</p>
+            <div class="footer-legal">
+                <a href="Pravni-upozorneni.html">Právní upozornění</a>
+                <a href="Ochrana-osobnich-udaju.html">Ochrana osobních údajů</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
